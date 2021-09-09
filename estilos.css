@@ -1,0 +1,187 @@
+body{
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  background-color: #c5e4e7;
+}
+
+
+.logo{
+  margin-top: 3%
+}
+.carta{
+  margin:  5% 20%;
+
+  border-radius: 35px;
+  background-color: white;
+
+}
+
+
+
+.titulo-input,.titulo{
+  font-size: 1.1rem;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  color: grey;
+}
+.titulo-input{
+  display: inline-block;
+  width: 50%;
+}
+.validacion{
+  color: red;
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  visibility: hidden;
+}
+
+.seleccion-porcentaje{
+  background-color: #00494d;
+  border-radius: 5px;
+  border-width: 0;
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  width: 28%;
+
+}
+
+.seleccion-porcentaje:hover{
+  background-color: #a1e8e0;
+  color: #00494d;
+}
+
+.linea-seccion{
+  margin: 2rem 0;
+}
+.seccion{
+  text-align: left;
+  margin-top: 0.5rem;
+}
+.valor-seccion{
+  color: #26c0ab;
+  font-size: 2.3rem;
+}
+
+.izquierda{
+  text-align: left;
+  padding-left: 1rem;
+
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.result{
+
+  border-radius: 15px;
+  margin: 1rem;
+  background-color: #00494d;
+
+  width: 43%;
+  height: 100%;
+  display: inline-block;
+}
+.result-titulo{
+  color: white;
+}
+.result-persona{
+  color: grey;
+}
+.input{
+  background-color: #f4fafa;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #48F0D0;
+  height: 2rem;
+}
+.click-input{
+  border-color: #48F0D0;
+}
+#factura{
+
+  background-image: url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5rem 0.8rem;
+  color: #00494d;
+  font-size: 2rem;
+  text-align:right;
+  height: 3rem;
+  width: 90%;
+
+  border-style: solid;
+  border-width: 2px;
+
+
+}
+#personas{
+  background-image: url(images/icon-person.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5rem 0.8rem;
+  font-size: 2rem;
+  text-align:right;
+  height: 3rem;
+  width: 90%;
+  margin-bottom: 2rem;
+  border-style: solid;
+
+}
+
+#resetear{
+  background-color: #26c0ab;
+  border-radius: 3%;
+  border-width: 0;
+  color: #00494d;
+  margin: 4rem 0 2rem 0;
+  height: 3rem;
+  font-size: 1.5rem;
+  width: 90%;
+}
+#resetear:hover{
+  background-color: #a1e8e0;
+
+}
+
+#custom{
+  background-color: white;
+  color: grey;
+}
+
+
+
+@media(max-width: 1024px){
+  .carta{
+    margin: 10%;
+  }
+  .valor-seccion{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 800px){
+  .izquierda{
+    width: 80%;
+    height: 100%;
+  }
+  .result{
+
+    width: 80%;
+    height: 100%;
+  }
+
+
+}
+
+@media(max-width: 600px){
+    .carta{
+      margin: 0;
+    }
+    .seleccion-porcentaje{
+      width: 40%;
+    }
+}
